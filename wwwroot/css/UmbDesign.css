@@ -1,36 +1,43 @@
 html, body {
     height: 100%;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     height: 100%;
+    color: rgb(240, 121, 10);
 }
-.mainTitle{
+
+.mainTitle {
     border-style: solid;
     border-radius: 1rem;
-    background: #c4d8e2;
+    background: rgb(8, 8, 8);
 }
-.titleText{
+
+.titleText {
     text-align: center;
-    color: rgb(red, green, blue);
+    color: #f74a06;
 }
+
 .sideNavbar {
     border-style: solid;
     border-radius: 1rem;
-    background: #c4d8e2;
+    background: rgb(8, 8, 8);
 }
-.mainContentrow{
+
+.mainContentrow {
     flex-grow: 1;
 }
-.mainContent{
+
+.mainContent {
     border-style: solid;
     border-radius: 1rem;
-    background: #c4d8e2;
+    background: rgb(8, 8, 8);
 }
-.footer{
+
+.footer {
     border-style: solid;
     border-radius: 1rem;
-    background: #c4d8e2;
-    text-align: center;
+    background: rgb(8, 8, 8);
 }
